@@ -47,17 +47,8 @@ VoidGuide provides multiple package formats for Linux:
 - **Free Web Research**: Native, 100% free web search capability using a parallel-racing engine (SearXNG + DuckDuckGo).
 - **Sophisticated Motion System**: Entirely rebuilt using **Framer Motion**, featuring spring-based physics for all interactions.
 - **Keyboard-Centric**: Fast navigation via Command Palette (⌘K), inline chat slash commands (`/`), and file mentions (`@`).
-
----
-
-## 🛠 Tech Stack
-
-- **Frontend**: [React 19.2](https://react.dev/) + [Vite 8.0](https://vitejs.dev/)
-- **Desktop Framework**: [Electron 41.4](https://www.electronjs.org/)
-- **Language**: [TypeScript 6.0](https://www.typescriptlang.org/)
-- **State Management**: [Zustand](https://zustand-demo.pmnd.rs/) with `electron-store` persistence
-- **AI Backend**: Multi-provider support including [Google Gemini](https://ai.google.dev/), [Anthropic Claude](https://www.anthropic.com/), [OpenAI GPT](https://openai.com/), OpenRouter, Groq, Mistral, DeepSeek, Perplexity, and Cohere.
-- **Styling & Motion**: [Tailwind CSS v4](https://tailwindcss.com/) for high-performance styling and [Framer Motion](https://www.framer.com/motion/) for spring-based physics.
+- **Dynamic Version Tracking**: Real-time application version display on the startup splash screen and status bar.
+- **Integrated Changelog**: Easily access version history and release notes directly via the Status Bar or Command Palette.
 
 ---
 
