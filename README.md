@@ -50,6 +50,13 @@ sudo dpkg -i /tmp/voidguide.deb
 #### 🍎 macOS
 Re-download the `.zip` and replace the existing app in Applications.
 
+### Requirements
+
+- **Python 3.10+** - Required for the AgentKit sidecar (macOS and Linux usually have it pre-installed)
+- **Windows**: Install Python from [python.org](https://www.python.org/downloads/) or via winget: `winget install Python.Python.3.12`
+- **Linux**: `sudo dnf install python3` (Fedora) or `sudo apt install python3` (Ubuntu)
+- **macOS**: Comes pre-installed, or install via Homebrew: `brew install python3`
+
 ---
 
 ## 🚀 Key Features
