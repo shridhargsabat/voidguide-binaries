@@ -13,7 +13,7 @@ You can download the latest pre-built binaries from the [Releases](https://githu
 ### Installation Guide
 
 #### 🪟 Windows
-1. Download the `.exe` installer from the latest release.
+1. Download the `VoidGuide Setup 1.1.1.exe` installer from the latest release.
 2. Run the installer and follow the on-screen instructions.
 3. Launch **VoidGuide** from your Start Menu.
 
@@ -27,6 +27,28 @@ VoidGuide provides multiple package formats for Linux:
 1. Download the `.zip` archive from the latest release.
 2. Extract the archive.
 3. Drag and drop `VoidGuide.app` into your **Applications** folder.
+
+### Reinstalling / Upgrading
+
+If you already have VoidGuide installed and need to reinstall or upgrade:
+
+#### 🪟 Windows
+Re-run the installer - it will automatically upgrade.
+
+#### 🐧 Linux (Fedora/RHEL)
+```bash
+curl -L -o /tmp/voidguide.rpm "https://github.com/shridhargsabat/voidguide-binaries/releases/download/v1.1.1/voidguide-1.1.1.x86_64.rpm"
+sudo dnf reinstall -y /tmp/voidguide.rpm
+```
+
+#### 🐧 Linux (Ubuntu/Debian)
+```bash
+curl -L -o /tmp/voidguide.deb "https://github.com/shridhargsabat/voidguide-binaries/releases/download/v1.1.1/voidguide_1.1.1_amd64.deb"
+sudo dpkg -i /tmp/voidguide.deb
+```
+
+#### 🍎 macOS
+Re-download the `.zip` and replace the existing app in Applications.
 
 ---
 
